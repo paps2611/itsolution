@@ -1,16 +1,19 @@
 # itsolution
+Pixabay Image Gallery
 
-A new Flutter project.
-
+## Features
+ - Likes and views of Each Image is Displayed.
+ - No of columns depends on Screen Width(responsive).
+ - Used sttagered grid view to display image as a sqaure grid
+ - Infinite Scrolling to get new Images
+   
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+To run this Project -:
+Install the following packages
+  flutter_staggered_grid_view: ^0.7.0
+  http: ^1.2.2
+  google_fonts: ^6.2.1
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Pixabay Api used is in my Code only(created with personal acct)
